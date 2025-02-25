@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(168, 168, 168);
+    font-family: Helvetica, sans-serif;
+    background-image: url(images/portal.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    position: fixed;
+    background: rgb(22, 22, 22);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+a{
+    color: rgb(228, 149, 3);
+    text-decoration: none;
+}
+
+a:hover{
+    color:aquamarine;
+    text-decoration: underline;
+
+}
+
+div{
+    border-radius: 10px;
+    margin: auto;
+}
+
+.titulos{
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+p{
+    text-align: justify;
+}
+
+.box-section{
+    margin: auto;
+    margin-top: 100px;
+    height: 300px;
+    width:800px;
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 0px 0px 6px 6px orangered;
+    transition: transform 0.3s ease;
+}
+.box-section:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px 6px aqua;
+}
+
+.links{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    max-width: 800px;
+    max-height: 400px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    flex-flow:wrap;
+    z-index: 2;
+}
+.box-nav{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(22, 22, 22);
+    align-items: center;
+    text-align: center;
+    background-image: url(images/orange.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 2px 6px 6px orangered;
+    }
+
+.box-nav:hover{
+    transform: scale(1.15);
+    color: white;
+    background-image: url(images/blue.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 6px 6px aqua;
+}
+image{
+    width: 20%;
+    height: 20%;
+}
+
+.separador{
+    width: 300px;
+    height: 250px;
+}
+
+.boxf{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(67, 66, 66);
+    
+}
